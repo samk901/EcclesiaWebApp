@@ -22,7 +22,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "0cc04cc2ff919c2e43c4";
+/******/ 	var hotCurrentHash = "1e072dfe9b109322d101";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -1034,8 +1034,6 @@ async function render(req, res) {
   } else {
     res.send(Object(_template_js__WEBPACK_IMPORTED_MODULE_4__["default"])(body, initialData, userData));
   }
-
-  res.send(Object(_template_js__WEBPACK_IMPORTED_MODULE_4__["default"])(body, initialData));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (render);

@@ -33,7 +33,7 @@ class IssueAddNavItem extends React.Component {
     this.hideModal();
     const form = document.forms.issueAdd;
     const issue = {
-      name: form.name.value,
+      owner: form.owner.value,
       title: form.title.value,
       due: new Date(new Date().getTime() + 1000 * 60 * 60 * 24 * 10),
     };
@@ -76,8 +76,8 @@ class IssueAddNavItem extends React.Component {
                 <FormControl name="title" autoFocus />
               </FormGroup>
               <FormGroup>
-                <ControlLabel>name</ControlLabel>
-                <FormControl name="name" />
+                <ControlLabel>Owner</ControlLabel>
+                <FormControl name="owner" />
               </FormGroup>
             </Form>
           </Modal.Body>

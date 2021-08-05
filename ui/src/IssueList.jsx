@@ -64,7 +64,7 @@ class IssueList extends React.Component {
         page: $page
       ) {
         issues {
-          id title status name
+          id title status owner
           created effort due
         }
         pages
@@ -125,7 +125,7 @@ class IssueList extends React.Component {
   async closeIssue(index) {
     const query = `mutation issueClose($id: Int!) {
       issueUpdate(id: $id, changes: { status: Closed }) {
-        id title status name
+        id title status owner
         effort created due description
       }
     }`;
