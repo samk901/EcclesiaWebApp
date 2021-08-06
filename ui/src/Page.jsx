@@ -16,19 +16,22 @@ import SignInNavItem from './SignInNavItem.jsx';
 
 function NavBar({ user, onUserChange }) {
   return (
-    <Navbar>
+    <Navbar bg="dark">
       <Navbar.Header>
-        <Navbar.Brand>Issue Tracker</Navbar.Brand>
+        <Navbar.Brand>Ecclesia</Navbar.Brand>
       </Navbar.Header>
       <Nav>
         <LinkContainer exact to="/">
           <NavItem>Home</NavItem>
         </LinkContainer>
         <LinkContainer to="/issues">
-          <NavItem>Issue List</NavItem>
+          <NavItem>Contacts</NavItem>
         </LinkContainer>
         <LinkContainer to="/report">
           <NavItem>Report</NavItem>
+        </LinkContainer>
+        <LinkContainer to="/calendar">
+          <NavItem>Calendar</NavItem>
         </LinkContainer>
       </Nav>
       <Col sm={5}>
@@ -60,7 +63,7 @@ function Footer() {
       <p className="text-center">
         Full source code available at this
         {' '}
-        <a href="https://github.com/tonymullen/ProMERNStackBook">
+        <a href="https://github.com/samk901/EcclesiaWebApp.git">
           GitHub repository
         </a>
       </p>
@@ -111,7 +114,7 @@ export default class Page extends React.Component {
     if (user == null) return null;
     return (
       <div>
-        <NavBar user={user} onUserChange={this.onUserChange} />
+        <NavBar bg="dark" user={user} onUserChange={this.onUserChange} />
         <Grid fluid>
           <UserContext.Provider value={user}>
             <Contents />
