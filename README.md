@@ -1,10 +1,11 @@
 # EcclesiaWebApp
 CRM Application modified for Churches and Non-Profits using the MERN Stack
 
-Source Code: https://github.com/samk901/EcclesiaWebApp
-Application UI: https://ecclesia-ui-samk901.herokuapp.com/
+Source Code: https://github.com/samk901/EcclesiaWebApp  
 
-(Please note, for some reason, the app is buggy on Firefox, still working on a solution.)
+Application UI: https://ecclesia-ui-samk901.herokuapp.com/  
+
+(Please note, for some reason, the app is buggy on Firefox, still working on a solution.)  
 
 ## Iter 1
 
