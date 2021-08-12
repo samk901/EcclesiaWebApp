@@ -11,9 +11,9 @@ Application UI: https://ecclesia-ui-samk901.herokuapp.com/
 
 In this iteration, we added some styles in addition to the standard Bootstrap CSS using a template available online. We also added a Homepage that will serve as our landing page and adapted the routing from the book project. We also began implementing a Calendar Component using React-Calendar, which will allow a user to keep track of meetings. Currently, I am running into a CORS error, causing pages to not load when moving from page to page. I will attach screenshots of the web app running on localhost. 
 
-![EcclesiaStyle](/readme_images/iter2_style.png)
-![EcclesiaHome](/readme_images/iter2_home.png)
-![EcclesiaCalendar](/readme_images/iter2_calendar.png)
+![EcclesiaStyle](readme_images/iter2_style.png)
+![EcclesiaHome](readme_images/iter2_home.png)
+![EcclesiaCalendar](readme_images/iter2_calendar.png)
 
 ## Iter 1
 
